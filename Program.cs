@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Program.cs
+//Calculadora com as quatro operações básicas e com cálculo de porcentagem
+//Possui menu interativo
+using System;
 
 namespace Calculator
 {
@@ -37,8 +40,8 @@ namespace Calculator
             }
 
         }
-
-        static void Soma () {
+        //operação soma
+        static void Soma () { 
             Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
@@ -50,7 +53,8 @@ namespace Calculator
             Console.ReadKey(); //Para o sistema mostrar o resultado antes de abrir o menu novamente
             Menu();
         }
-        static void Subtracao () {
+        //operação subtração
+        static void Subtracao () { 
             Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
@@ -62,7 +66,8 @@ namespace Calculator
             Console.ReadKey();
             Menu();
         }
-        static void Divisao () {
+        //operação divisão
+        static void Divisao () { 
             Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
@@ -74,7 +79,8 @@ namespace Calculator
             Console.ReadKey();
             Menu();
         }
-        static void Multiplicacao () {
+        //operação multiplicação
+        static void Multiplicacao () { 
             Console.WriteLine("Primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
@@ -86,8 +92,8 @@ namespace Calculator
             Console.ReadKey();
             Menu();
         }
-
-        static void Porcentagem () {
+        //cálculo de porcentagem
+        static void Porcentagem () { 
             Console.WriteLine("Valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
